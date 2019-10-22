@@ -1,0 +1,6 @@
+framework module VHCycleVerticalView {
+  umbrella header "VHCycleVerticalView-umbrella.h"
+
+  export *
+  module * { export * }
+}

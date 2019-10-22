@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - VHCycleVerticalView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - VHCycleVerticalView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  VHCycleVerticalView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  VHCycleVerticalView: deca72b015b6c7ecb7f629b5a9784218aaab02c6
+
+PODFILE CHECKSUM: 21cb2ac6ec6f9f556447089013d1ff0326e18b87
+
+COCOAPODS: 1.8.4
