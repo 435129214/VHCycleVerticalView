@@ -12,6 +12,7 @@
 
 #import "VHCycleVerticalView.h"
 #import "VHCycleView.h"
+#import "VHMsgItem.h"
 
 FOUNDATION_EXPORT double VHCycleVerticalViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char VHCycleVerticalViewVersionString[];

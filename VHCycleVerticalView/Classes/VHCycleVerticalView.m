@@ -67,10 +67,10 @@
 }
 
 - (void)initUI{
-    self.view1 = [[VHCycleView alloc]init];
+    self.view1 = [[VHCycleView alloc] initWithFrame:self.bounds];
 //    self.view1.backgroundColor = [UIColor clearColor];
 
-    self.view2 = [[VHCycleView alloc]init];
+    self.view2 = [[VHCycleView alloc] initWithFrame:self.bounds];
 //    self.view2.backgroundColor = [UIColor clearColor];
     
     [self addSubview:self.view1];

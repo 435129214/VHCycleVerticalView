@@ -7,50 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		31E5E31F8CCEE224D057EEF0E11DA2B9 /* Pods-VHCycleVerticalView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8AAB3E9CCAB05B50825109E639D7E5 /* Pods-VHCycleVerticalView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32B8DD387BB3AA02B642CB8E804C4AB6 /* VHCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 459E7A41596CA641087C57B46C7F4C89 /* VHCycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		52E79E2EBD0D0E315EEDA9883545A4F6 /* VHCycleVerticalView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 579BF5B8A9F4EE257A5472DEF446FED0 /* VHCycleVerticalView-dummy.m */; };
-		5B37204311DFA9E89D92C6DCB78C2EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		5BF7A8A2DC4F6599889875403251F2BC /* VHCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFCDE6A2584DE95A4832B7E94EFF49 /* VHCycleView.m */; };
-		5E3C87CEC0F8E5A14C902F720BA22308 /* VHCycleVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B680B639EE704E0656739E315E6D62 /* VHCycleVerticalView.m */; };
-		65598B45F212D63A2A82B5F4A01D32D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		7B9887BE8F76D6B76C353891FB0D55F2 /* Pods-VHCycleVerticalView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB62EC8B73886A012F995F34D4007B3 /* Pods-VHCycleVerticalView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		8E44F382B07DFC17445E6EF0031F983B /* Pods-VHCycleVerticalView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E57468BD2893EE05912B7C1EBF5AF5 /* Pods-VHCycleVerticalView_Tests-dummy.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		9DDD53DBC5ECD9E41629A36493B66B82 /* VHCycleVerticalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F378C870DFDADEA1B5BBECBC201F103 /* VHCycleVerticalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1BE889D5748FC9506D1CD4549BDB083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BBA8F6838C34FB36118A98F3F8B52747 /* VHCycleVerticalView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A38EB7544FD23FAE4149843EEAAD1C /* VHCycleVerticalView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D1442CF3EB494C3E5268B5690BDFEE89 /* Pods-VHCycleVerticalView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379287DD4DE25F98BE92FC376B98AE6 /* Pods-VHCycleVerticalView_Example-dummy.m */; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1199F5EDE2264C8F42684A660F3520B3 /* VHCycleVerticalView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C1E7121C36B12FBF1DE5A3AF9BA56F /* VHCycleVerticalView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145047AA5DF45B286F6C8592D8FE353F /* VHMsgItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0CBDB14F11D6D5799E632589BB3B67 /* VHMsgItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AFE50CE29A6778325E41221B2B4E5B7 /* VHMsgItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED83DAB70A8F99EE81C36F17C58704A /* VHMsgItem.m */; };
+		6114C39727A509699BD66D17347B9E41 /* VHCycleVerticalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBD21FAE2165F3ACEFCB16F3A7C5B90 /* VHCycleVerticalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65598B45F212D63A2A82B5F4A01D32D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7B9887BE8F76D6B76C353891FB0D55F2 /* Pods-VHCycleVerticalView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0570C88721D9971E9E9A5465CFDCF28 /* Pods-VHCycleVerticalView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A6A5C1D7F939AE59807D69ED5E1760 /* VHCycleVerticalView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5078A7115ED31CA449461DAF97A186 /* VHCycleVerticalView-dummy.m */; };
+		CF37E11789B5B76361C41A43026ACA00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D1442CF3EB494C3E5268B5690BDFEE89 /* Pods-VHCycleVerticalView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C106B3151328E100BBE02B44F9936D5 /* Pods-VHCycleVerticalView_Example-dummy.m */; };
+		D225DE6F8DB2B844A48E7216A5CB7D26 /* VHCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A47583F9D5F7654F69F436AD1268F29 /* VHCycleView.m */; };
+		F028F1FB3059EFE14320B2F576120E1E /* VHCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C1A92316750AEB285CE89D8B3D4EEC /* VHCycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB973119DBE38CCA26BD230FDDB13816 /* VHCycleVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C8810CDD60C65FFA03C3076621544D /* VHCycleVerticalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3BA58AA3F7CCCBC6A2D825E34A46FD9B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
 		4EFFD958BC76953B93D09D63A64FD5BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -58,96 +29,45 @@
 			remoteGlobalIDString = E49E41F9602163BCFF2C5796A6803794;
 			remoteInfo = VHCycleVerticalView;
 		};
-		74D793748CCE15CB944493738595363F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AAE31E03243B59DC417D0B09CDA259B3;
-			remoteInfo = "Pods-VHCycleVerticalView_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C80869AF75C1858BD133B98CF5CB15 /* Pods-VHCycleVerticalView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHCycleVerticalView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		056B5C1390C4B6D9377431722A2D877A /* Pods-VHCycleVerticalView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHCycleVerticalView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		078765C843D160C1E13C31752BFFC7B7 /* VHCycleVerticalView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VHCycleVerticalView.modulemap; sourceTree = "<group>"; };
-		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		1A8AAB3E9CCAB05B50825109E639D7E5 /* Pods-VHCycleVerticalView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VHCycleVerticalView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		1DBB94F9697928270FA2B60D8760C523 /* Pods-VHCycleVerticalView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHCycleVerticalView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1F378C870DFDADEA1B5BBECBC201F103 /* VHCycleVerticalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VHCycleVerticalView.h; path = VHCycleVerticalView/Classes/VHCycleVerticalView.h; sourceTree = "<group>"; };
-		2585E27CBC231F1CD238224462E52207 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2FC59F74856C38A4077862EAF85347D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		35E57468BD2893EE05912B7C1EBF5AF5 /* Pods-VHCycleVerticalView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VHCycleVerticalView_Tests-dummy.m"; sourceTree = "<group>"; };
-		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3B6DAA506CFB12169B8B6B698E4CFEF7 /* Pods-VHCycleVerticalView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHCycleVerticalView_Tests-Info.plist"; sourceTree = "<group>"; };
-		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		418BBBA4502687521F0771499E4A2279 /* Pods-VHCycleVerticalView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHCycleVerticalView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		435E2FB86D9994981500F6E471472B45 /* VHCycleVerticalView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VHCycleVerticalView-Info.plist"; sourceTree = "<group>"; };
-		459E7A41596CA641087C57B46C7F4C89 /* VHCycleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VHCycleView.h; path = VHCycleVerticalView/Classes/VHCycleView.h; sourceTree = "<group>"; };
-		4B74D95F8B7B338544F8003AB3B5C212 /* Pods-VHCycleVerticalView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHCycleVerticalView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		579BF5B8A9F4EE257A5472DEF446FED0 /* VHCycleVerticalView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VHCycleVerticalView-dummy.m"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DB62EC8B73886A012F995F34D4007B3 /* Pods-VHCycleVerticalView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VHCycleVerticalView_Example-umbrella.h"; sourceTree = "<group>"; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6379287DD4DE25F98BE92FC376B98AE6 /* Pods-VHCycleVerticalView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VHCycleVerticalView_Example-dummy.m"; sourceTree = "<group>"; };
-		6D1F6ABB2CCD9F35F0A4614BABAED64C /* Pods-VHCycleVerticalView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VHCycleVerticalView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6DABE7B8B79DE49EE529F1369D757BDE /* VHCycleVerticalView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VHCycleVerticalView.xcconfig; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		78F7F9473AD0B82043A3DBA6DB8FC711 /* Pods_VHCycleVerticalView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHCycleVerticalView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		83456AB2CB532424B8088E09ED7F1B95 /* Pods-VHCycleVerticalView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VHCycleVerticalView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9B702ADF77E72ECAE26C0D636C455694 /* Pods-VHCycleVerticalView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHCycleVerticalView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB4D01B46DA509A38C3E257620F4B7B /* Pods-VHCycleVerticalView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VHCycleVerticalView_Tests.modulemap"; sourceTree = "<group>"; };
-		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		BFB832D6322BB89711FCF20576CCB57D /* VHCycleVerticalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VHCycleVerticalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7C09F841ADB79D6E4570DECB2D02BAC /* Pods-VHCycleVerticalView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHCycleVerticalView_Example-Info.plist"; sourceTree = "<group>"; };
-		CCB966D8088E16DEC5F9CAC0CB249112 /* Pods-VHCycleVerticalView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHCycleVerticalView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D1B680B639EE704E0656739E315E6D62 /* VHCycleVerticalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VHCycleVerticalView.m; path = VHCycleVerticalView/Classes/VHCycleVerticalView.m; sourceTree = "<group>"; };
-		D2AFCDE6A2584DE95A4832B7E94EFF49 /* VHCycleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VHCycleView.m; path = VHCycleVerticalView/Classes/VHCycleView.m; sourceTree = "<group>"; };
-		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		DF6C264EA2C5018E52EB6CF09087C3F6 /* Pods_VHCycleVerticalView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHCycleVerticalView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07ACF110C5C3FE6842AC6BBAF742E81 /* VHCycleVerticalView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHCycleVerticalView-prefix.pch"; sourceTree = "<group>"; };
-		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E2A38EB7544FD23FAE4149843EEAAD1C /* VHCycleVerticalView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHCycleVerticalView-umbrella.h"; sourceTree = "<group>"; };
-		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		EAD1A953720F38F92623602C438D5DAA /* Pods-VHCycleVerticalView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHCycleVerticalView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F10D19F44DA5F37AC1202D42EF4558BC /* Pods-VHCycleVerticalView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VHCycleVerticalView_Example.modulemap"; sourceTree = "<group>"; };
-		F809544A730C6C59D7A3A4F5D5E49EB4 /* VHCycleVerticalView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VHCycleVerticalView.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		18C1E7121C36B12FBF1DE5A3AF9BA56F /* VHCycleVerticalView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHCycleVerticalView-umbrella.h"; sourceTree = "<group>"; };
+		2A0CBDB14F11D6D5799E632589BB3B67 /* VHMsgItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VHMsgItem.h; path = VHCycleVerticalView/Classes/VHMsgItem.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		347D4450CFA95CB03594BDFE05028642 /* VHCycleVerticalView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VHCycleVerticalView-Info.plist"; sourceTree = "<group>"; };
+		55C3D998A8A25EFD700027F909E95ACC /* Pods-VHCycleVerticalView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHCycleVerticalView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6089995BF656ECDC68403EF32CF61B5D /* VHCycleVerticalView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VHCycleVerticalView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		610DDF57ACF3D77E4B517E5FB74481F8 /* VHCycleVerticalView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VHCycleVerticalView.modulemap; sourceTree = "<group>"; };
+		65FBC58E8E0E7C5855C887C5561346A0 /* VHCycleVerticalView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHCycleVerticalView-prefix.pch"; sourceTree = "<group>"; };
+		7C106B3151328E100BBE02B44F9936D5 /* Pods-VHCycleVerticalView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VHCycleVerticalView_Example-dummy.m"; sourceTree = "<group>"; };
+		7CE2E3302B319195E227EBEA181B06A1 /* Pods-VHCycleVerticalView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHCycleVerticalView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		86BE9F88E072A7CFABF51D4C9C073B94 /* Pods-VHCycleVerticalView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHCycleVerticalView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8ED83DAB70A8F99EE81C36F17C58704A /* VHMsgItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VHMsgItem.m; path = VHCycleVerticalView/Classes/VHMsgItem.m; sourceTree = "<group>"; };
+		9A47583F9D5F7654F69F436AD1268F29 /* VHCycleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VHCycleView.m; path = VHCycleVerticalView/Classes/VHCycleView.m; sourceTree = "<group>"; };
+		9BBD21FAE2165F3ACEFCB16F3A7C5B90 /* VHCycleVerticalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VHCycleVerticalView.h; path = VHCycleVerticalView/Classes/VHCycleVerticalView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4477BD375B0F37ECD82868B79A06986 /* Pods-VHCycleVerticalView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHCycleVerticalView_Example-Info.plist"; sourceTree = "<group>"; };
+		A6C1A92316750AEB285CE89D8B3D4EEC /* VHCycleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VHCycleView.h; path = VHCycleVerticalView/Classes/VHCycleView.h; sourceTree = "<group>"; };
+		A6D8FE6FB00C0D6F809A8FE39C302389 /* VHCycleVerticalView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VHCycleVerticalView.xcconfig; sourceTree = "<group>"; };
+		A8EE33A92C2BE36A5BF684E4F18194CA /* Pods-VHCycleVerticalView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHCycleVerticalView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1CA556BDF7C247B98EA0629AFDC8F49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BC3C5AC9C8253A3EA0DE7BC830D485AE /* Pods-VHCycleVerticalView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VHCycleVerticalView_Example.modulemap"; sourceTree = "<group>"; };
+		BFB832D6322BB89711FCF20576CCB57D /* VHCycleVerticalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VHCycleVerticalView.framework; path = VHCycleVerticalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0570C88721D9971E9E9A5465CFDCF28 /* Pods-VHCycleVerticalView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VHCycleVerticalView_Example-umbrella.h"; sourceTree = "<group>"; };
+		CD9C67F15BD00034597813F96FACDAF7 /* Pods-VHCycleVerticalView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VHCycleVerticalView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF5078A7115ED31CA449461DAF97A186 /* VHCycleVerticalView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VHCycleVerticalView-dummy.m"; sourceTree = "<group>"; };
+		DF6C264EA2C5018E52EB6CF09087C3F6 /* Pods_VHCycleVerticalView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VHCycleVerticalView_Example.framework; path = "Pods-VHCycleVerticalView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F94D43E3A63418FC125F77523176C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F6C8810CDD60C65FFA03C3076621544D /* VHCycleVerticalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VHCycleVerticalView.m; path = VHCycleVerticalView/Classes/VHCycleVerticalView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FF3536D0D3DE9057679DD14FC603A38 /* Frameworks */ = {
+		E9B417C4DEDCD9D0CB76EF9B9A3E5548 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B37204311DFA9E89D92C6DCB78C2EB1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
-				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
-				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
-				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+				CF37E11789B5B76361C41A43026ACA00 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,224 +79,129 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7ED7AAC820BA4C4D5F57F8A700D31F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1BE889D5748FC9506D1CD4549BDB083 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C3F47CF8B70D6544B57A544204C3AF5 /* Pods-VHCycleVerticalView_Example */ = {
+		176EB1ABC67B49340C8FDA978024780B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F10D19F44DA5F37AC1202D42EF4558BC /* Pods-VHCycleVerticalView_Example.modulemap */,
-				83456AB2CB532424B8088E09ED7F1B95 /* Pods-VHCycleVerticalView_Example-acknowledgements.markdown */,
-				056B5C1390C4B6D9377431722A2D877A /* Pods-VHCycleVerticalView_Example-acknowledgements.plist */,
-				6379287DD4DE25F98BE92FC376B98AE6 /* Pods-VHCycleVerticalView_Example-dummy.m */,
-				EAD1A953720F38F92623602C438D5DAA /* Pods-VHCycleVerticalView_Example-frameworks.sh */,
-				C7C09F841ADB79D6E4570DECB2D02BAC /* Pods-VHCycleVerticalView_Example-Info.plist */,
-				5DB62EC8B73886A012F995F34D4007B3 /* Pods-VHCycleVerticalView_Example-umbrella.h */,
-				9B702ADF77E72ECAE26C0D636C455694 /* Pods-VHCycleVerticalView_Example.debug.xcconfig */,
-				00C80869AF75C1858BD133B98CF5CB15 /* Pods-VHCycleVerticalView_Example.release.xcconfig */,
-			);
-			name = "Pods-VHCycleVerticalView_Example";
-			path = "Target Support Files/Pods-VHCycleVerticalView_Example";
-			sourceTree = "<group>";
-		};
-		265A1587D8BE40FF60ADC795F684D94B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2FC59F74856C38A4077862EAF85347D0 /* LICENSE */,
-				2585E27CBC231F1CD238224462E52207 /* README.md */,
-				F809544A730C6C59D7A3A4F5D5E49EB4 /* VHCycleVerticalView.podspec */,
+				E7F94D43E3A63418FC125F77523176C2 /* LICENSE */,
+				B1CA556BDF7C247B98EA0629AFDC8F49 /* README.md */,
+				6089995BF656ECDC68403EF32CF61B5D /* VHCycleVerticalView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		359BEBEBC653523A388C76D10B3B10EF /* VHCycleVerticalView */ = {
+		5480B2FEF9EE8AA6B03C6F64BFA5DB58 /* VHCycleVerticalView */ = {
 			isa = PBXGroup;
 			children = (
-				1F378C870DFDADEA1B5BBECBC201F103 /* VHCycleVerticalView.h */,
-				D1B680B639EE704E0656739E315E6D62 /* VHCycleVerticalView.m */,
-				459E7A41596CA641087C57B46C7F4C89 /* VHCycleView.h */,
-				D2AFCDE6A2584DE95A4832B7E94EFF49 /* VHCycleView.m */,
-				265A1587D8BE40FF60ADC795F684D94B /* Pod */,
-				6FA2DB1D7712E5817FCB1D51DB6BFEA6 /* Support Files */,
+				9BBD21FAE2165F3ACEFCB16F3A7C5B90 /* VHCycleVerticalView.h */,
+				F6C8810CDD60C65FFA03C3076621544D /* VHCycleVerticalView.m */,
+				A6C1A92316750AEB285CE89D8B3D4EEC /* VHCycleView.h */,
+				9A47583F9D5F7654F69F436AD1268F29 /* VHCycleView.m */,
+				2A0CBDB14F11D6D5799E632589BB3B67 /* VHMsgItem.h */,
+				8ED83DAB70A8F99EE81C36F17C58704A /* VHMsgItem.m */,
+				176EB1ABC67B49340C8FDA978024780B /* Pod */,
+				A88CE1277B186B2683C25E7E8E4ECB47 /* Support Files */,
 			);
 			name = VHCycleVerticalView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3A02DE4EA4DDAD62AB5285DCE20DBAC7 /* Development Pods */ = {
+		558BDD81C71353A2795B4D8E0BF14BE5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				359BEBEBC653523A388C76D10B3B10EF /* VHCycleVerticalView */,
+				FEE1619D7747467BBD1E52094CB165E3 /* Pods-VHCycleVerticalView_Example */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+		A88CE1277B186B2683C25E7E8E4ECB47 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
-				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
-				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
-				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
-				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
-				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		6FA2DB1D7712E5817FCB1D51DB6BFEA6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				078765C843D160C1E13C31752BFFC7B7 /* VHCycleVerticalView.modulemap */,
-				6DABE7B8B79DE49EE529F1369D757BDE /* VHCycleVerticalView.xcconfig */,
-				579BF5B8A9F4EE257A5472DEF446FED0 /* VHCycleVerticalView-dummy.m */,
-				435E2FB86D9994981500F6E471472B45 /* VHCycleVerticalView-Info.plist */,
-				E07ACF110C5C3FE6842AC6BBAF742E81 /* VHCycleVerticalView-prefix.pch */,
-				E2A38EB7544FD23FAE4149843EEAAD1C /* VHCycleVerticalView-umbrella.h */,
+				610DDF57ACF3D77E4B517E5FB74481F8 /* VHCycleVerticalView.modulemap */,
+				A6D8FE6FB00C0D6F809A8FE39C302389 /* VHCycleVerticalView.xcconfig */,
+				CF5078A7115ED31CA449461DAF97A186 /* VHCycleVerticalView-dummy.m */,
+				347D4450CFA95CB03594BDFE05028642 /* VHCycleVerticalView-Info.plist */,
+				65FBC58E8E0E7C5855C887C5561346A0 /* VHCycleVerticalView-prefix.pch */,
+				18C1E7121C36B12FBF1DE5A3AF9BA56F /* VHCycleVerticalView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/VHCycleVerticalView";
 			sourceTree = "<group>";
 		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+		A92346DD8B53F24CA23DC7280B00C4CF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+				5480B2FEF9EE8AA6B03C6F64BFA5DB58 /* VHCycleVerticalView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7F958610D9ED9291914285A068FE52DD /* Pods-VHCycleVerticalView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9DB4D01B46DA509A38C3E257620F4B7B /* Pods-VHCycleVerticalView_Tests.modulemap */,
-				6D1F6ABB2CCD9F35F0A4614BABAED64C /* Pods-VHCycleVerticalView_Tests-acknowledgements.markdown */,
-				4B74D95F8B7B338544F8003AB3B5C212 /* Pods-VHCycleVerticalView_Tests-acknowledgements.plist */,
-				35E57468BD2893EE05912B7C1EBF5AF5 /* Pods-VHCycleVerticalView_Tests-dummy.m */,
-				CCB966D8088E16DEC5F9CAC0CB249112 /* Pods-VHCycleVerticalView_Tests-frameworks.sh */,
-				3B6DAA506CFB12169B8B6B698E4CFEF7 /* Pods-VHCycleVerticalView_Tests-Info.plist */,
-				1A8AAB3E9CCAB05B50825109E639D7E5 /* Pods-VHCycleVerticalView_Tests-umbrella.h */,
-				418BBBA4502687521F0771499E4A2279 /* Pods-VHCycleVerticalView_Tests.debug.xcconfig */,
-				1DBB94F9697928270FA2B60D8760C523 /* Pods-VHCycleVerticalView_Tests.release.xcconfig */,
-			);
-			name = "Pods-VHCycleVerticalView_Tests";
-			path = "Target Support Files/Pods-VHCycleVerticalView_Tests";
-			sourceTree = "<group>";
-		};
-		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
-				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
-				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
-				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
-				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
-				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
-				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
-				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
-				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
-				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
-				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
-				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
-				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
-				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
-				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
-				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3A02DE4EA4DDAD62AB5285DCE20DBAC7 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				D5DC8BD1B6F7872D71231834ED7BFACA /* Products */,
-				D8679A66C917F7FBE11D847BAAEA9EBC /* Targets Support Files */,
+				A92346DD8B53F24CA23DC7280B00C4CF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E2D455014E71C52DE7ED54589895CF55 /* Products */,
+				558BDD81C71353A2795B4D8E0BF14BE5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D5DC8BD1B6F7872D71231834ED7BFACA /* Products */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D455014E71C52DE7ED54589895CF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 				DF6C264EA2C5018E52EB6CF09087C3F6 /* Pods_VHCycleVerticalView_Example.framework */,
-				78F7F9473AD0B82043A3DBA6DB8FC711 /* Pods_VHCycleVerticalView_Tests.framework */,
 				BFB832D6322BB89711FCF20576CCB57D /* VHCycleVerticalView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8679A66C917F7FBE11D847BAAEA9EBC /* Targets Support Files */ = {
+		FEE1619D7747467BBD1E52094CB165E3 /* Pods-VHCycleVerticalView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1C3F47CF8B70D6544B57A544204C3AF5 /* Pods-VHCycleVerticalView_Example */,
-				7F958610D9ED9291914285A068FE52DD /* Pods-VHCycleVerticalView_Tests */,
+				BC3C5AC9C8253A3EA0DE7BC830D485AE /* Pods-VHCycleVerticalView_Example.modulemap */,
+				CD9C67F15BD00034597813F96FACDAF7 /* Pods-VHCycleVerticalView_Example-acknowledgements.markdown */,
+				55C3D998A8A25EFD700027F909E95ACC /* Pods-VHCycleVerticalView_Example-acknowledgements.plist */,
+				7C106B3151328E100BBE02B44F9936D5 /* Pods-VHCycleVerticalView_Example-dummy.m */,
+				86BE9F88E072A7CFABF51D4C9C073B94 /* Pods-VHCycleVerticalView_Example-frameworks.sh */,
+				A4477BD375B0F37ECD82868B79A06986 /* Pods-VHCycleVerticalView_Example-Info.plist */,
+				C0570C88721D9971E9E9A5465CFDCF28 /* Pods-VHCycleVerticalView_Example-umbrella.h */,
+				7CE2E3302B319195E227EBEA181B06A1 /* Pods-VHCycleVerticalView_Example.debug.xcconfig */,
+				A8EE33A92C2BE36A5BF684E4F18194CA /* Pods-VHCycleVerticalView_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
-			);
-			name = Pods;
+			name = "Pods-VHCycleVerticalView_Example";
+			path = "Target Support Files/Pods-VHCycleVerticalView_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+		B16332B0ED1983DCA70C96CBCFAB481F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+				1199F5EDE2264C8F42684A660F3520B3 /* VHCycleVerticalView-umbrella.h in Headers */,
+				6114C39727A509699BD66D17347B9E41 /* VHCycleVerticalView.h in Headers */,
+				F028F1FB3059EFE14320B2F576120E1E /* VHCycleView.h in Headers */,
+				145047AA5DF45B286F6C8592D8FE353F /* VHMsgItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,45 +213,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4C5D54FF8857E8473D2E02AE74852F5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31E5E31F8CCEE224D057EEF0E11DA2B9 /* Pods-VHCycleVerticalView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1FDF86D8AD843CF5940FE37D9DA9267 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBA8F6838C34FB36118A98F3F8B52747 /* VHCycleVerticalView-umbrella.h in Headers */,
-				9DDD53DBC5ECD9E41629A36493B66B82 /* VHCycleVerticalView.h in Headers */,
-				32B8DD387BB3AA02B642CB8E804C4AB6 /* VHCycleView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		AAE31E03243B59DC417D0B09CDA259B3 /* Pods-VHCycleVerticalView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAC355D1B0C480A6AF4D3470B8715AF7 /* Build configuration list for PBXNativeTarget "Pods-VHCycleVerticalView_Example" */;
@@ -446,34 +235,14 @@
 			productReference = DF6C264EA2C5018E52EB6CF09087C3F6 /* Pods_VHCycleVerticalView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC08370E97589B56DAA8CE41EBBACA86 /* Pods-VHCycleVerticalView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33EE25E1F61F0D1D622A0D221770319D /* Build configuration list for PBXNativeTarget "Pods-VHCycleVerticalView_Tests" */;
-			buildPhases = (
-				E4C5D54FF8857E8473D2E02AE74852F5 /* Headers */,
-				3EE26667AD952527964F820DAF5D6D25 /* Sources */,
-				3FF3536D0D3DE9057679DD14FC603A38 /* Frameworks */,
-				1C12BCA600095E460D44FB49B1740B95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				617EB1884AA74BC92E68D5B619E7B5BC /* PBXTargetDependency */,
-				46D8786E6F26B18F2BF5CE458E74C32F /* PBXTargetDependency */,
-			);
-			name = "Pods-VHCycleVerticalView_Tests";
-			productName = "Pods-VHCycleVerticalView_Tests";
-			productReference = 78F7F9473AD0B82043A3DBA6DB8FC711 /* Pods_VHCycleVerticalView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		E49E41F9602163BCFF2C5796A6803794 /* VHCycleVerticalView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 447CBDE7DDEF8F991E0A283D4AA714BA /* Build configuration list for PBXNativeTarget "VHCycleVerticalView" */;
+			buildConfigurationList = AB339E1D8F99FB904018FDB318688F01 /* Build configuration list for PBXNativeTarget "VHCycleVerticalView" */;
 			buildPhases = (
-				F1FDF86D8AD843CF5940FE37D9DA9267 /* Headers */,
-				CDCD4A8E7FC58C14FF29F29844FFB9C0 /* Sources */,
-				F7ED7AAC820BA4C4D5F57F8A700D31F8 /* Frameworks */,
-				AA4E513BAA3042DE2A03DC3664D6A2AF /* Resources */,
+				B16332B0ED1983DCA70C96CBCFAB481F /* Headers */,
+				D4C236A281174141B0300C3385C4B535 /* Sources */,
+				E9B417C4DEDCD9D0CB76EF9B9A3E5548 /* Frameworks */,
+				1F101BDA4BF88E46CE6264CBE31BA706 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -502,34 +271,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D5DC8BD1B6F7872D71231834ED7BFACA /* Products */;
+			productRefGroup = E2D455014E71C52DE7ED54589895CF55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				AAE31E03243B59DC417D0B09CDA259B3 /* Pods-VHCycleVerticalView_Example */,
-				CC08370E97589B56DAA8CE41EBBACA86 /* Pods-VHCycleVerticalView_Tests */,
 				E49E41F9602163BCFF2C5796A6803794 /* VHCycleVerticalView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C12BCA600095E460D44FB49B1740B95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA4E513BAA3042DE2A03DC3664D6A2AF /* Resources */ = {
+		1F101BDA4BF88E46CE6264CBE31BA706 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -546,37 +299,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3EE26667AD952527964F820DAF5D6D25 /* Sources */ = {
+		D4C236A281174141B0300C3385C4B535 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E44F382B07DFC17445E6EF0031F983B /* Pods-VHCycleVerticalView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDCD4A8E7FC58C14FF29F29844FFB9C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52E79E2EBD0D0E315EEDA9883545A4F6 /* VHCycleVerticalView-dummy.m in Sources */,
-				5E3C87CEC0F8E5A14C902F720BA22308 /* VHCycleVerticalView.m in Sources */,
-				5BF7A8A2DC4F6599889875403251F2BC /* VHCycleView.m in Sources */,
+				C5A6A5C1D7F939AE59807D69ED5E1760 /* VHCycleVerticalView-dummy.m in Sources */,
+				FB973119DBE38CCA26BD230FDDB13816 /* VHCycleVerticalView.m in Sources */,
+				D225DE6F8DB2B844A48E7216A5CB7D26 /* VHCycleView.m in Sources */,
+				5AFE50CE29A6778325E41221B2B4E5B7 /* VHMsgItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,24 +327,43 @@
 			target = E49E41F9602163BCFF2C5796A6803794 /* VHCycleVerticalView */;
 			targetProxy = 4EFFD958BC76953B93D09D63A64FD5BA /* PBXContainerItemProxy */;
 		};
-		46D8786E6F26B18F2BF5CE458E74C32F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-VHCycleVerticalView_Example";
-			target = AAE31E03243B59DC417D0B09CDA259B3 /* Pods-VHCycleVerticalView_Example */;
-			targetProxy = 74D793748CCE15CB944493738595363F /* PBXContainerItemProxy */;
-		};
-		617EB1884AA74BC92E68D5B619E7B5BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 3BA58AA3F7CCCBC6A2D825E34A46FD9B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0558F19BB896653A98FD652A8B07BA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D8FE6FB00C0D6F809A8FE39C302389 /* VHCycleVerticalView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView.modulemap";
+				PRODUCT_MODULE_NAME = VHCycleVerticalView;
+				PRODUCT_NAME = VHCycleVerticalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		0BDC6BFFAEB158C776595A3BF6100953 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B702ADF77E72ECAE26C0D636C455694 /* Pods-VHCycleVerticalView_Example.debug.xcconfig */;
+			baseConfigurationReference = 7CE2E3302B319195E227EBEA181B06A1 /* Pods-VHCycleVerticalView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -644,136 +393,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		161E2CC7CCFA2FC4012D9309ECE8E62F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DABE7B8B79DE49EE529F1369D757BDE /* VHCycleVerticalView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView.modulemap";
-				PRODUCT_MODULE_NAME = VHCycleVerticalView;
-				PRODUCT_NAME = VHCycleVerticalView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1A920E9F06E8A86CD625613010FF993B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DABE7B8B79DE49EE529F1369D757BDE /* VHCycleVerticalView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView.modulemap";
-				PRODUCT_MODULE_NAME = VHCycleVerticalView;
-				PRODUCT_NAME = VHCycleVerticalView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3F55CF66B8545EB6E31BC6B485D7A5B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418BBBA4502687521F0771499E4A2279 /* Pods-VHCycleVerticalView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VHCycleVerticalView_Tests/Pods-VHCycleVerticalView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VHCycleVerticalView_Tests/Pods-VHCycleVerticalView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4923E5F27885D1CE2DEE07815F9B1734 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DBB94F9697928270FA2B60D8760C523 /* Pods-VHCycleVerticalView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VHCycleVerticalView_Tests/Pods-VHCycleVerticalView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VHCycleVerticalView_Tests/Pods-VHCycleVerticalView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -828,41 +447,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -932,7 +520,7 @@
 		};
 		DF2889696FD14A80E0FAE530276C5900 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00C80869AF75C1858BD133B98CF5CB15 /* Pods-VHCycleVerticalView_Example.release.xcconfig */;
+			baseConfigurationReference = A8EE33A92C2BE36A5BF684E4F18194CA /* Pods-VHCycleVerticalView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -964,9 +552,9 @@
 			};
 			name = Release;
 		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+		E0AC816C59471CC1CF4B0F1F951B8A30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = A6D8FE6FB00C0D6F809A8FE39C302389 /* VHCycleVerticalView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -977,45 +565,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MODULEMAP_FILE = "Target Support Files/VHCycleVerticalView/VHCycleVerticalView.modulemap";
+				PRODUCT_MODULE_NAME = VHCycleVerticalView;
+				PRODUCT_NAME = VHCycleVerticalView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33EE25E1F61F0D1D622A0D221770319D /* Build configuration list for PBXNativeTarget "Pods-VHCycleVerticalView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F55CF66B8545EB6E31BC6B485D7A5B5 /* Debug */,
-				4923E5F27885D1CE2DEE07815F9B1734 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		447CBDE7DDEF8F991E0A283D4AA714BA /* Build configuration list for PBXNativeTarget "VHCycleVerticalView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A920E9F06E8A86CD625613010FF993B /* Debug */,
-				161E2CC7CCFA2FC4012D9309ECE8E62F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1025,11 +596,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		AB339E1D8F99FB904018FDB318688F01 /* Build configuration list for PBXNativeTarget "VHCycleVerticalView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
+				0558F19BB896653A98FD652A8B07BA59 /* Debug */,
+				E0AC816C59471CC1CF4B0F1F951B8A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
