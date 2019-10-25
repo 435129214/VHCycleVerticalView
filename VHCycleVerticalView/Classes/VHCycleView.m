@@ -53,14 +53,14 @@
     
     _topLabel.content.text = dic[@"TITLE"];
     _topLabel.readStatus.hidden = NO;
-    _topLabel.time.text = dic[@"TITLE"];
+    _topLabel.time.text = @"刚刚";
 }
 
 -(void) setBottomViewData:(NSDictionary *)dic
 {
     _centerLabel.content.text = @"";//中间控件赋值空
     _bottomLabel.content.text = dic[@"TITLE"];
-    _bottomLabel.time.text = dic[@"TITLE"];
+    _bottomLabel.time.text = @"7小时前";
     
     _bottomLabel.readStatus.hidden = NO;
     _centerLabel.readStatus.hidden = YES;
