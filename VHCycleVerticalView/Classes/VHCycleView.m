@@ -22,18 +22,17 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        _topLabel = [[VHMsgItem alloc] initWithFrame:CGRectMake(0, 5, CGRectGetWidth(self.frame), self.frame.size.height/2 - 10)];
+        _topLabel = [[VHMsgItem alloc] initWithFrame:CGRectMake(0, 10, CGRectGetWidth(self.frame), self.frame.size.height/2 - 10)];
         [self addSubview:_topLabel];
-//        _topLabel.backgroundColor = [UIColor redColor];
-        
-        _bottomLabel = [[VHMsgItem alloc] initWithFrame:CGRectMake(0, self.center.y, CGRectGetWidth(self.frame), self.frame.size.height/2 - 10)];
+        //        _topLabel.backgroundColor = [UIColor redColor];
+                
+        _bottomLabel = [[VHMsgItem alloc] initWithFrame:CGRectMake(0, self.center.y + 10, CGRectGetWidth(self.frame), self.frame.size.height/2 - 10)];
         [self addSubview:_bottomLabel];
-        
-//        _bottomLabel.backgroundColor = [UIColor blueColor];
-        
-        _centerLabel = [[VHMsgItem alloc] initWithFrame:CGRectMake(0,self.frame.size.height/2 - 15, CGRectGetWidth(self.frame), 30)];
+                
+        //        _bottomLabel.backgroundColor = [UIColor blueColor];
+                
+        _centerLabel = [[VHMsgItem alloc] initWithFrame:CGRectMake(0,self.frame.size.height/2 - 10, CGRectGetWidth(self.frame), 30)];
         [self addSubview:_centerLabel];
-//        _centerLabel.backgroundColor = [UIColor yellowColor];
     
     }
     return self;
