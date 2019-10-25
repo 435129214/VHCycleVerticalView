@@ -49,7 +49,7 @@
 -(UILabel *)time
 {
     if(!_time){
-        _time = [[UILabel alloc] initWithFrame:CGRectMake(self.content.frame.origin.x + self.content.frame.size.width + 10, 0, 45, self.frame.size.height)];
+        _time = [[UILabel alloc] initWithFrame:CGRectMake(self.content.frame.origin.x + self.content.frame.size.width + 5, 0, 55, self.frame.size.height)];
         _time.font = [UIFont systemFontOfSize:14];
         _time.textColor = [UIColor colorWithRed:153.0/255 green:153.0/255 blue:153.0/255 alpha:1];
         [self addSubview:_time];
