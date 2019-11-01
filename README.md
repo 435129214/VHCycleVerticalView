@@ -22,7 +22,7 @@ pod 'VHCycleVerticalView'
 
 ## Author
 
-435129214@qq.com, liyanlei1@vipkid.com.cn
+435129214@qq.com
 
 ## License
 
