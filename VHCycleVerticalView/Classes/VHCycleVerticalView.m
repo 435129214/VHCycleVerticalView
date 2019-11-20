@@ -136,7 +136,6 @@
     
     NSInteger realIndex = _indexNow*2;
     
-    NSLog(@"消息序列：%ld",realIndex);
     [self setMiddleView:_tmpMiddleView atBeginIndex:realIndex];
     
     if(_indexNow == (_dataArray.count + 1)/2){//最后一页
