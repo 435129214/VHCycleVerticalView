@@ -197,7 +197,8 @@
 - (void)startAnimation{
     [self setViewInfo];
     [self addPageIndex];
-    if (_dataArray.count > 1) {
+    //大于两个才有动画
+    if (_dataArray.count > 2) {
         [self stopTimer];
         _timer = [NSTimer scheduledTimerWithTimeInterval:_showTime target:self selector:@selector(executeAnimation) userInfo:nil repeats:YES];
         [[NSRunLoop currentRunLoop] addTimer:_timer forMode:UITrackingRunLoopMode];
