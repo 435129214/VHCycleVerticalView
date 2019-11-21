@@ -53,14 +53,14 @@
     
     _topLabel.content.text = dic[@"TITLE"];
     _topLabel.readStatus.hidden = NO;
-    _topLabel.time.text = @"刚刚";
+    _topLabel.time.text = dic[@"TIME"];
 }
 
 -(void) setBottomViewData:(NSDictionary *)dic
 {
     _centerLabel.content.text = @"";//中间控件赋值空
     _bottomLabel.content.text = dic[@"TITLE"];
-    _bottomLabel.time.text = @"7小时前";
+    _bottomLabel.time.text = dic[@"TIME"];
     
     _bottomLabel.readStatus.hidden = NO;
     _centerLabel.readStatus.hidden = YES;
@@ -69,7 +69,7 @@
 -(void) setCenterViewData:(NSDictionary *)dic
 {
     _centerLabel.content.text = dic[@"TITLE"];
-    _centerLabel.time.text = dic[@"TITLE"];
+    _centerLabel.time.text = dic[@"TIME"];
     _centerLabel.readStatus.hidden = NO;
     
     //上下两个控件赋值空
