@@ -53,6 +53,7 @@
         _time.font = [UIFont systemFontOfSize:14];
         _time.textColor = [UIColor colorWithRed:153.0/255 green:153.0/255 blue:153.0/255 alpha:1];
         _time.textAlignment = NSTextAlignmentRight;
+        _time.adjustsFontSizeToFitWidth = YES;
         [self addSubview:_time];
     }
     
